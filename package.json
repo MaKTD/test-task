@@ -6,6 +6,30 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">=12.19",
+    "npm": ">=6.14.x"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "axios-rate-limit": "^1.3.0",
+    "dayjs": "^1.10.4",
+    "dotenv": "^8.2.0",
+    "nconf": "^0.11.2",
+    "pino": "^6.11.2",
+    "pino-pretty": "^4.7.1",
+    "require-all": "^3.0.0",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-chai-friendly": "^0.6.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-optimize-regex": "^1.2.0"
+  }
 }

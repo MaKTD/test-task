@@ -1,0 +1,33 @@
+{
+    "env": {
+        "mocha": true,
+        "jest": true,
+        "browser": true,
+        "commonjs": true,
+        "node": true,
+        "es2021": true
+    },
+    "extends": [
+        "airbnb-base",
+        "plugin:node/recommended"
+    ],
+    "plugins": [
+        "chai-friendly",
+        "optimize-regex"
+    ],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 2019
+    },
+    "rules": {
+        "no-underscore-dangle": "off",
+        "semi": ["error", "never"],
+        "no-console": "error",
+        "no-unused-expressions": "off",
+        "chai-friendly/no-unused-expressions": "error",
+        "node/no-unpublished-require": "off",
+        "node/no-unpublished-import": "off",
+        "no-param-reassign": "off",
+        "valid-typeof": "off"
+    }
+}
